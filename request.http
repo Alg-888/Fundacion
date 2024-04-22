@@ -1,0 +1,10 @@
+###
+POST   https://fundacion-1.onrender.com/donaciones HTTP/1.1
+Content-Type: application/json
+
+{
+    
+    "donador": "juan",
+    "donacion": "hola@gmail.com",
+    "fecha": "020202"
+}

@@ -6,12 +6,16 @@ const donacionRoutes = require('./routes/donacionRoutes');
 
 const app = express();
 
+const cors = require('cors');
+
+app.use(cors());
+
 // Middleware
 app.use(bodyParser.json());
 
 // Routes
 app.use('/donaciones', donacionRoutes);
-this.donacionesPath = 'API_donacion/donaciones';
+this.donacionesPath = 'API/donaciones';
 
 PORT = 3000;
 
